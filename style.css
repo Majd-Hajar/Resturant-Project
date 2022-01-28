@@ -106,7 +106,23 @@ section {
   position: relative;
   z-index: 0;
 }
+.box {
+  background: url(images/home-slide-1.jpeg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
+.box1 {
+  background: url(images/home-slide-2.jpeg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box2 {
+  background: url(images/home-slide-3.jpeg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* media queries i */
 
 @media (max-width: 1200px) {
