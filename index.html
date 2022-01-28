@@ -12,6 +12,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -37,9 +42,9 @@
 
     <!-- home section starts -->
     <section class="home" id="home">
-      <div class="home-slider">
-        <div class="w">
-          <div class="slide box">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide box">
             <div class="content">
               <span>outstanding food</span>
               <h3>delicious cooking</h3>
@@ -47,7 +52,7 @@
             </div>
           </div>
 
-          <div class="slide box1">
+          <div class="swiper-slide slide box1">
             <div class="content">
               <span>outstanding food</span>
               <h3>morning moment</h3>
@@ -55,7 +60,7 @@
             </div>
           </div>
 
-          <div class="slide box2">
+          <div class="swiper-slide slide box2">
             <div class="content">
               <span>outstanding food</span>
               <h3>authentic kitcen</h3>
@@ -63,10 +68,14 @@
             </div>
           </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
     </section>
 
     <!-- home section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!-- custom js file link -->
     <script src="script.js"></script>
