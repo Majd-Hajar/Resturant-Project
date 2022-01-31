@@ -1,8 +1,9 @@
 # Resturant-Project
 
-<!-- Createed Header and Navbar -->
-<!-- Createed Home -->
+<!-- Created Header and Navbar -->
+<!-- Created Home -->
 <!-- The Solution To The Background Error  -->
 <!-- Completed Home -->
 <!-- Completed About -->
 <!-- Completed Food -->
+<!-- Completed food preview -->
