@@ -7,3 +7,4 @@
 <!-- Completed About -->
 <!-- Completed Food -->
 <!-- Completed food preview -->
+<!-- Created & Completed The Gallery -->
