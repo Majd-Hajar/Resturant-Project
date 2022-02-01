@@ -60,3 +60,15 @@ previewContainer.querySelector("#close-preview").onclick = () => {
     close.classList.remove("active");
   });
 };
+
+var swiper = new Swiper(".menu-slider", {
+  grabCursor: true,
+  loop: true,
+  autoHeight: true,
+  centeredSlides: true,
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

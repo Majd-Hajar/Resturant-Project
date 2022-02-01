@@ -123,7 +123,7 @@ section {
   display: none;
 }
 
-.box {
+.box3 {
   background: url(images/home-slide-1.jpeg.jpg) no-repeat;
   background-position: center;
   background-size: cover;
@@ -422,6 +422,54 @@ section {
   display: flex;
 }
 
+.menu {
+  background: var(--light-bg);
+}
+
+.menu .slide .title {
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--white);
+  background: var(--peru);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.menu .slide .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+.menu .slide .box-container .box {
+  flex: 1 1 51rem;
+  background: var(--white);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.menu .slide .box-container .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+.menu .slide .box-container .box p {
+  font-size: 1.6rem;
+  color: var(--light-black);
+  line-height: 2;
+}
+.menu .slide .box-container .box .price {
+  font-size: 2.5rem;
+  color: var(--peru);
+}
+.menu .slide .box-container .box:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
 /* media queries i */
 
 @media (max-width: 1200px) {
@@ -474,6 +522,11 @@ section {
   .swiper-button-prev {
     top: initial;
     bottom: 1rem;
+  }
+
+  .menu .slide .box-container .box {
+    flex-flow: column;
+    text-align: center;
   }
 }
 
