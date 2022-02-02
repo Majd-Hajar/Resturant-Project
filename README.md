@@ -10,3 +10,4 @@
 <!-- Created & Completed The Gallery -->
 <!-- Completed The Menu -->
 <!-- Created Order -->
+<!-- Created & Completed The Blogs -->
